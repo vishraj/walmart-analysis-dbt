@@ -1,0 +1,15 @@
+version: 2
+
+
+sources:
+  - name: walmart
+    schema: raw
+    tables:
+      - name: departments
+        identifier: raw_departments
+
+      - name: stores
+        identifier: raw_stores
+
+      - name: fct_store_sales
+        identifier: weekly_stores_sales
